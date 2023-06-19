@@ -1,0 +1,18 @@
+//write a program to swap two variables using the third variables.
+
+#include<stdio.h>
+#include<conio.h>
+
+void main(){
+int a = 5;
+int b = 10;
+int c;
+clrscr();
+c = a;
+a = b;
+
+printf("value of a is %d\n",a);
+printf("value of b is %d",b);
+
+getch();
+}
